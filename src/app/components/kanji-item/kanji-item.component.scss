@@ -1,0 +1,47 @@
+.kanji-item {
+    display: grid;
+    grid-template-rows: 70% 30%;
+    justify-content: center;
+    /* border: 1px solid #ccc; */
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+    width: 100px;
+    height: 130px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 90ms;
+}
+.kanji-item:hover {
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+    transform: scale(1.03);
+}
+
+.kanji-char {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.kanji-meaning {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.hidden {
+    opacity: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .kanji-item {
+        width: 60px;
+        height: 80px;
+    }
+    .kanji-char {
+        font-size: 30px;
+    }
+    .kanji-meaning {
+        font-size: 12px;
+    }
+}

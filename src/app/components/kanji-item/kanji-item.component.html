@@ -1,0 +1,17 @@
+<div *ngIf="!reversed" class="kanji-item" (click)="toggleHidden()">
+    <div class="kanji-char" >
+        {{kanji.kanji}}
+    </div>
+    <div class="kanji-meaning" [ngClass]="{'hidden': hidden}">
+        {{kanji.meaning}}
+    </div>
+</div>
+<div *ngIf="reversed" class="kanji-item" (click)="toggleHidden()">
+    <div class="kanji-char" [ngClass]="{'hidden': hidden}">
+        {{kanji.kanji}}
+    </div>
+    <div class="kanji-meaning" >
+        {{kanji.meaning}}
+    </div>
+</div>
+

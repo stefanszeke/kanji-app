@@ -1,0 +1,28 @@
+import { Kanji } from "../model/Kanji";
+
+export const chapter5: Kanji[] = [
+    { kanji: '乙', onyomi: 'オツ', kunyomi: 'おと-の', meaning: 'fish guts' },
+    { kanji: '乱', onyomi: 'ラン', kunyomi: 'みだ-れる', meaning: 'riot' },
+    { kanji: '直', onyomi: 'チョク・ジキ', kunyomi: 'ただ-ちに', meaning: 'straight' },
+    { kanji: '具', onyomi: 'グ', kunyomi: 'そな-える', meaning: 'tool' },
+    { kanji: '真', onyomi: 'シン', kunyomi: 'ま', meaning: 'true' },
+    { kanji: '工', onyomi: 'コウ・ク', kunyomi: 'たくみ', meaning: 'craft' },
+    { kanji: '左', onyomi: 'サ', kunyomi: 'ひだり', meaning: 'left' },
+    { kanji: '右', onyomi: 'ウ・ユウ', kunyomi: 'みぎ', meaning: 'right' },
+    { kanji: '有', onyomi: 'ユウ・ウ', kunyomi: 'あ-る', meaning: 'have' },
+    { kanji: '賄', onyomi: 'ワイ', kunyomi: 'まかな-う', meaning: 'bribe' },
+    { kanji: '貢', onyomi: 'コウ・ク', kunyomi: 'みつ-ぐ', meaning: 'tribute' },
+    { kanji: '項', onyomi: 'コウ', kunyomi: '', meaning: 'paragraph' },
+    { kanji: '刀', onyomi: 'トウ', kunyomi: 'かたな', meaning: 'sword' },
+    { kanji: '刃', onyomi: 'ジン', kunyomi: 'は', meaning: 'blade' },
+    { kanji: '切', onyomi: 'セツ・サイ', kunyomi: 'き-る', meaning: 'cut' },
+    { kanji: '召', onyomi: 'ショウ', kunyomi: 'め-す', meaning: 'seduce, summon' },
+    { kanji: '昭', onyomi: 'ショウ', kunyomi: '', meaning: 'shining' },
+    { kanji: '則', onyomi: 'ソク', kunyomi: 'のっと-る', meaning: 'rule' },
+    { kanji: '副', onyomi: 'フク', kunyomi: 'そえ-る', meaning: 'vice' },
+    { kanji: '別', onyomi: 'ベツ', kunyomi: 'わか-れる', meaning: 'separate' },
+    { kanji: '丁', onyomi: 'チョウ・テイ', kunyomi: '', meaning: 'street' },
+    { kanji: '町', onyomi: 'チョウ', kunyomi: 'まち', meaning: 'town' },
+    { kanji: '可', onyomi: 'カ', kunyomi: 'べ-き', meaning: 'can' },
+    { kanji: '頂', onyomi: 'チョウ', kunyomi: 'いただ-く', meaning: 'place on the head' },
+]

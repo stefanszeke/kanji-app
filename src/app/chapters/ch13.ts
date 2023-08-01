@@ -1,0 +1,30 @@
+import { Kanji } from "../model/Kanji";
+
+export const chapter13: Kanji[] = [
+    { kanji: '道', onyomi: 'ドウ', kunyomi: 'みち', meaning: 'road-way' },
+    { kanji: '導', onyomi: 'ドウ', kunyomi: 'みちび-く', meaning: 'guidance' },
+    { kanji: '辻', onyomi: 'つじ', kunyomi: '', meaning: 'crossing' },
+    { kanji: '迅', onyomi: 'ジン', kunyomi: 'はや-い', meaning: 'swift' },
+    { kanji: '造', onyomi: 'ゾウ', kunyomi: 'つく-る', meaning: 'create' },
+    { kanji: '迫', onyomi: 'ハク', kunyomi: 'せま-る', meaning: 'urge' },
+    { kanji: '逃', onyomi: 'トウ', kunyomi: 'に-げる', meaning: 'escape' },
+    { kanji: '辺', onyomi: 'ヘン', kunyomi: 'ほと-り', meaning: 'environs' },
+    { kanji: '巡', onyomi: 'ジュン', kunyomi: 'めぐ-る', meaning: 'patrol' },
+    { kanji: '車', onyomi: 'シャ', kunyomi: 'くるま', meaning: 'car' },
+    { kanji: '連', onyomi: 'レン', kunyomi: 'つら-なる', meaning: 'take along' },
+    { kanji: '軌', onyomi: 'キ', kunyomi: '', meaning: 'rut' },
+    { kanji: '輸', onyomi: 'ユ', kunyomi: 'ゆ-す', meaning: 'transport' },
+    { kanji: '喩', onyomi: 'ユ', kunyomi: '', meaning: 'metaphor' },
+    { kanji: '前', onyomi: 'ゼン', kunyomi: 'まえ', meaning: 'in front' },
+    { kanji: '煎', onyomi: 'セン', kunyomi: 'い-る', meaning: 'roast' },
+    { kanji: '各', onyomi: 'カク', kunyomi: 'おのおの', meaning: 'each' },
+    { kanji: '格', onyomi: 'カク', kunyomi: '', meaning: 'status' },
+    { kanji: '賂', onyomi: 'ロ', kunyomi: 'まいな-い', meaning: 'graft' },
+    { kanji: '略', onyomi: 'リャク', kunyomi: 'ほぼ', meaning: 'abbreviation' },
+    { kanji: '客', onyomi: 'キャク', kunyomi: 'きゃく', meaning: 'guest' },
+    { kanji: '額', onyomi: 'ガク', kunyomi: 'ひたい', meaning: 'forehead' },
+    { kanji: '夏', onyomi: 'カ', kunyomi: 'なつ', meaning: 'summer' },
+    { kanji: '処', onyomi: 'ショ', kunyomi: 'ところ', meaning: 'dispose' },
+    { kanji: '条', onyomi: 'ジョウ', kunyomi: '', meaning: 'twig' },
+    { kanji: '落', onyomi: 'ラク', kunyomi: 'お-ちる', meaning: 'fall' }
+];
