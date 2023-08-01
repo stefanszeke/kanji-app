@@ -1,12 +1,15 @@
 <div class="wrapper">
 
-  <select [(ngModel)]="currentChapter" (change)="selectChapter()">
-    <option *ngFor="let i of chapters" [value]="i">chapter {{i}}</option>
-  </select>
-  <button (click)="moveChapter('prev')"><</button>
-  <button (click)="moveChapter('next')">></button>
-  <button (click)="toggleReversed()">reverse</button>
-  <button (click)="shulffle()">shulffle</button>
+  <div class="controls">
+    <select [(ngModel)]="currentChapter" (change)="selectChapter()">
+      <option *ngFor="let i of chapters" [value]="i">chapter {{i}}</option>
+    </select>
+    <button (click)="moveChapter('prev')"><</button>
+    <button (click)="moveChapter('next')">></button>
+    <button (click)="toggleReversed()">reverse</button>
+    <button (click)="shulffle()">shulffle</button>
+  </div>
+
   
 
 <div class='kanji-list'>
