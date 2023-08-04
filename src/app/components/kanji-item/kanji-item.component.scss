@@ -10,6 +10,12 @@
     cursor: pointer;
     transition: 90ms;
 }
+
+.selected {
+    background-color: #333333;
+    border: 1px solid white;
+    transform: scale(1.03);
+}
 .kanji-item:hover {
     box-shadow: 0 0 2px 2px rgba(226, 226, 226, 0.3);
     transform: scale(1.03);
@@ -36,7 +42,7 @@
 @media screen and (max-width: 800px) {
     .kanji-item {
         width: 60px;
-        height: 80px;
+        height: 65px;
     }
     .kanji-char {
         font-size: 30px;

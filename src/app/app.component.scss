@@ -17,26 +17,59 @@
 }
 
 .chapters {
-    display: grid;
-    grid-auto-flow: column;
-}
-
-.buttons {
-    display: grid;
-    grid-auto-flow: column;
-    grid-gap: 5px;
+  display: grid;
+  grid-gap: 6px;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 0fr));
+  justify-content: center;
+  
+  margin: 10px auto;
+  max-width: 110 * 4px;
 }
 
 .select-box {
-    display: grid;
-    justify-items: center;
+  position: relative;
+  display: grid;
+  width: 100px;
+
+  justify-items: center;
+  border: 1px solid gray;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.chapters select {
+  width: 100px;
+  height: 35px;
+  background-color: #1c1c1c;
+  border: none;
+  border-radius: 6px;
+  color: #ffc58e;
+  text-align: center;
+  padding-top: 18px;
+}
+.chapters select:hover {
+  background-color: #f2f2f2;
+  background-color: #3a3a3a;
+  cursor: pointer;
+}
+
+.select-box h4 {
+  font-size: 0.8rem;
+  position: absolute;
+  pointer-events: none;
 }
 
 .controls {
   display: grid;
   grid-auto-flow: row;
-  grid-gap: 10px;
+  grid-gap: 6px;
   justify-content: center;
+}
+
+.controls .buttons {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 5px;
 }
 
 .controls button {
@@ -48,19 +81,6 @@
   color: #ffc58e;
 }
 .controls button:hover {
-  background-color: #3a3a3a;
-  cursor: pointer;
-}
-
-.controls select {
-  background-color: #1c1c1c;
-  border: 1px solid gray;
-  border-radius: 6px;
-  text-align: center;
-  color: #ffc58e;
-}
-.controls select:hover {
-  background-color: #f2f2f2;
   background-color: #3a3a3a;
   cursor: pointer;
 }
