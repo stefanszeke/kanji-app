@@ -2,8 +2,8 @@
     display: grid;
     grid-template-rows: 70% 30%;
     justify-content: center;
-    /* border: 1px solid #ccc; */
-    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+    background-color: #1c1c1c;
+    box-shadow: 0 0 2px 1px rgba(226, 226, 226, 0.2);
     width: 100px;
     height: 130px;
     border-radius: 6px;
@@ -11,7 +11,7 @@
     transition: 90ms;
 }
 .kanji-item:hover {
-    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 2px 2px rgba(226, 226, 226, 0.3);
     transform: scale(1.03);
 }
 

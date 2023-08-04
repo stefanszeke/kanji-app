@@ -12,7 +12,8 @@ export class AppComponent {
   @ViewChildren(KanjiItemComponent) kanjiItems!: QueryList<KanjiItemComponent>;
 
   selectedChapter: Kanji[] = [];
-  chapters = Array.from(Array(17).keys()).map(i => i + 1);
+  chapters1 = Array.from(Array(10).keys()).map(i => i + 1);
+  chapters2 = Array.from(Array(10).keys()).map(i => i + 11);
   currentChapter: number = 1;
 
   ngOnInit() {
