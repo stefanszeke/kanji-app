@@ -4,31 +4,31 @@
 
     <div class="select-box">
       <h4>1 - 15</h4>
-      <select [(ngModel)]="currentChapter" (change)="selectChapter()">
-        <option *ngFor="let i of chapters1" [value]="i">chapter {{i}}</option>
+      <select [(ngModel)]="currentChapterIndex" (change)="selectChapter()">
+        <option *ngFor="let i of chapters1" [value]="i">{{chapters[i].name}}</option>
       </select>
     </div>
 
     <div class="select-box">
       <h4>16 - 30</h4>
-      <select [(ngModel)]="currentChapter" (change)="selectChapter()">
-        <option *ngFor="let i of chapters2" [value]="i">chapter {{i}}</option>
+      <select [(ngModel)]="currentChapterIndex" (change)="selectChapter()">
+        <option *ngFor="let i of chapters2" [value]="i">{{chapters[i].name}}</option>
       </select>
     </div>
 
-    <div class="select-box">
+    <!-- <div class="select-box">
       <h4>31 - 45</h4>
-      <select [(ngModel)]="currentChapter" (change)="selectChapter()">
+      <select [(ngModel)]="currentChapterIndex" (change)="selectChapter()">
         <option *ngFor="let i of chapters3" [value]="i">chapter {{i}}</option>
       </select>
-    </div>
-
+    </div>  -->
+<!-- 
     <div class="select-box">
       <h4>46 - 60</h4>
-      <select [(ngModel)]="currentChapter" (change)="selectChapter()">
+      <select [(ngModel)]="currentChapterIndex" (change)="selectChapter()">
         <option *ngFor="let i of chapters4" [value]="i">chapter {{i}}</option>
       </select>
-    </div>
+    </div> -->
 
   </div>
 

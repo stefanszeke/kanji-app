@@ -12,18 +12,22 @@ export class AppComponent {
   @ViewChildren(KanjiItemComponent) kanjiItems!: QueryList<KanjiItemComponent>;
 
   selectedChapter: Kanji[] = [];
-  chapters1 = Array.from(Array(15).keys()).map(i => i + 1);
-  chapters2 = Array.from(Array(15).keys()).map(i => i + 16);
-  chapters3 = Array.from(Array(15).keys()).map(i => i + 31);
-  chapters4 = Array.from(Array(15).keys()).map(i => i + 46);
-  currentChapter: number = 1;
+  chapters1 = Array.from(Array(15).keys()).map(i => i);
+  chapters2 = Array.from(Array(3).keys()).map(i => i + 15);
+  // chapters3 = Array.from(Array(15).keys()).map(i => i + 31);
+  // chapters4 = Array.from(Array(15).keys()).map(i => i + 46);
+  currentChapterIndex: number = 0;
+
+  chapters = CHAPTERS;
 
   ngOnInit() {
-    this.selectedChapter = [...CHAPTERS[this.currentChapter - 1]];
+    this.selectedChapter = [...CHAPTERS[this.currentChapterIndex].content];
+    console.log(CHAPTERS[0]);
+    console.log(this.chapters1);
   }
 
   selectChapter() {
-    this.selectedChapter = [...CHAPTERS[this.currentChapter - 1]];
+    this.selectedChapter = [...CHAPTERS[this.currentChapterIndex].content];
   }
 
   toggleReversed() {
@@ -38,16 +42,16 @@ export class AppComponent {
 
   moveChapter(move: string) {
     if (move == 'next') {
-      if (this.currentChapter < 17) {
-        this.currentChapter++;
+      if (this.currentChapterIndex < CHAPTERS.length-1) {
+        this.currentChapterIndex++;
       } else {
-        this.currentChapter = 1;
+        this.currentChapterIndex = 0;
       }
     } else if (move == 'prev') {
-      if (this.currentChapter > 1) {
-        this.currentChapter--;
+      if (this.currentChapterIndex > 0) {
+        this.currentChapterIndex--;
       } else {
-        this.currentChapter = CHAPTERS.length;
+        this.currentChapterIndex = CHAPTERS.length-1;
       }
     }
     this.selectChapter();
