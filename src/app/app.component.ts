@@ -13,7 +13,7 @@ export class AppComponent {
 
   selectedChapter: Kanji[] = [];
   chapters1 = Array.from(Array(15).keys()).map(i => i);
-  chapters2 = Array.from(Array(3).keys()).map(i => i + 15);
+  chapters2 = Array.from(Array(4).keys()).map(i => i + 15);
   // chapters3 = Array.from(Array(15).keys()).map(i => i + 31);
   // chapters4 = Array.from(Array(15).keys()).map(i => i + 46);
   currentChapterIndex: number = 0;

@@ -9,6 +9,7 @@ import { chapter15 } from "./ch15";
 import { chapter16 } from "./ch16";
 import { chapter17 } from "./ch17";
 import { chapter18a } from "./ch18a";
+import { chapter18b } from "./ch18b";
 import { chapter2 } from "./ch2";
 import { chapter3 } from "./ch3";
 import { chapter4 } from "./ch4";
@@ -36,5 +37,6 @@ export const CHAPTERS = [
     { name: 'chapter 15', content: chapter15 },
     { name: 'chapter 16', content: chapter16 },
     { name: 'chapter 17', content: chapter17 },
-    { name: 'chapter 18a', content: chapter18a }
+    { name: 'chapter 18a', content: chapter18a },
+    { name: 'chapter 18b', content: chapter18b },
 ]
