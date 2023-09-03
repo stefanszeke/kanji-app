@@ -16,7 +16,7 @@ export const chapter16: Kanji[] = [
     { kanji: '威', onyomi: 'イ', kunyomi: 'おど-す', meaning: 'intimidate' },
     { kanji: '滅', onyomi: 'メツ', kunyomi: 'ほろ-びる', meaning: 'destroy' },
     { kanji: '減', onyomi: 'ゲン', kunyomi: 'へ-る', meaning: 'dwindle' },
-    { kanji: '蔑', onyomi: 'ベツ', kunyomi: 'さげす-む', meaning: 'revile' },
+    { kanji: '蔑', onyomi: 'ベツ', kunyomi: 'さげす-む', meaning: 'revile, ignore' },
     { kanji: '桟', onyomi: 'サン', kunyomi: '', meaning: 'scaffold' },
     { kanji: '銭', onyomi: 'セン', kunyomi: 'ぜに', meaning: 'coin' },
     { kanji: '浅', onyomi: 'セン', kunyomi: 'あさ-い', meaning: 'shallow' }

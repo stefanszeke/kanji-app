@@ -11,7 +11,7 @@ export const chapter18a = [
     { kanji: '巾', onyomi: 'キン', kunyomi: 'はば', meaning: 'towel' },
     { kanji: '布', onyomi: 'フ', kunyomi: 'ぬの', meaning: 'linen' },
     { kanji: '帆', onyomi: 'ハン', kunyomi: 'ほ', meaning: 'sail' },
-    { kanji: '幅', onyomi: 'フク', kunyomi: 'はば', meaning: 'hanging scroll' },
+    { kanji: '幅', onyomi: 'フク', kunyomi: 'はば', meaning: 'hanging scroll, asdasdasdaasd' },
     { kanji: '帽', onyomi: 'ボウ', kunyomi: 'ずきん', meaning: 'cap' },
     { kanji: '幕', onyomi: 'マク', kunyomi: 'とばり', meaning: 'curtain' },
     { kanji: '幌', onyomi: 'コウ', kunyomi: 'ほろ', meaning: 'canopy' },
