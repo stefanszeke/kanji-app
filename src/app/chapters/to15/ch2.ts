@@ -1,4 +1,4 @@
-import { Kanji } from "../model/Kanji";
+import { Kanji } from "../../model/Kanji";
 
 export const chapter2: Kanji[] = [
     {

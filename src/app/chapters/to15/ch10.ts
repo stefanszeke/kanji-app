@@ -1,4 +1,4 @@
-import { Kanji } from "../model/Kanji";
+import { Kanji } from "../../model/Kanji";
 
 export const chapter10: Kanji[] = [
     { kanji: '木', onyomi: 'ボク', kunyomi: 'き', meaning: 'tree' },
