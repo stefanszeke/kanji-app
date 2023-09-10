@@ -75,3 +75,28 @@ export const chapter18c = [
     { kanji: '葛', onyomi: 'カツ', kunyomi: 'くず', meaning: 'kudzu' },
     { kanji: '旨', onyomi: 'シ', kunyomi: 'むね', meaning: 'delicious' }
 ];
+
+export const chapter18d = [
+    { kanji: '脂', onyomi: 'シ', kunyomi: 'あぶら', meaning: 'fat' },
+    { kanji: '詣', onyomi: 'ケイ', kunyomi: 'もう-でる', meaning: 'visit a shrine' },
+    { kanji: '壱', onyomi: 'イチ', kunyomi: '-', meaning: 'I (one)' },
+    { kanji: '毎', onyomi: 'マイ', kunyomi: 'ごと', meaning: 'every' },
+    { kanji: '敏', onyomi: 'ビン', kunyomi: '-', meaning: 'cleverness' },
+    { kanji: '梅', onyomi: 'バイ', kunyomi: 'うめ', meaning: 'plum' },
+    { kanji: '海', onyomi: 'カイ', kunyomi: 'うみ', meaning: 'sea' },
+    { kanji: '乞', onyomi: 'キ', kunyomi: 'こ-う', meaning: 'beg' },
+    { kanji: '乾', onyomi: 'カン', kunyomi: 'かわ-く, かわ-かす', meaning: 'drought' },
+    { kanji: '腹', onyomi: 'フク', kunyomi: 'はら', meaning: 'abdomen' },
+    { kanji: '複', onyomi: 'フク', kunyomi: '-', meaning: 'duplicate' },
+    { kanji: '欠', onyomi: 'ケツ', kunyomi: 'か-ける, か-く', meaning: 'lack' },
+    { kanji: '吹', onyomi: 'スイ', kunyomi: 'ふ-く', meaning: 'blow' },
+    { kanji: '炊', onyomi: 'スイ', kunyomi: 'た-く', meaning: 'cook' },
+    { kanji: '歌', onyomi: 'カ', kunyomi: 'うた, うた-う', meaning: 'song' },
+    { kanji: '軟', onyomi: 'ナン', kunyomi: 'やわ-らか, やわ-らかい', meaning: 'soft' },
+    { kanji: '次', onyomi: 'ジ, シ', kunyomi: 'つぎ', meaning: 'next' },
+    { kanji: '茨', onyomi: 'シ', kunyomi: 'いばら', meaning: 'briar, thorn' },
+    { kanji: '資', onyomi: 'シ', kunyomi: '-', meaning: 'assets' },
+    { kanji: '姿', onyomi: 'シ', kunyomi: 'すがた', meaning: 'figure' },
+    { kanji: '諮', onyomi: 'シ', kunyomi: 'はか-る', meaning: 'consult with' }
+];
+
