@@ -17,6 +17,9 @@ import { chapter15 } from "./to15/ch15";
 import { chapter16 } from "./to30/ch16";
 import { chapter17 } from "./to30/ch17";
 import { chapter18a, chapter18b, chapter18c, chapter18d } from "./to30/ch18";
+import { chapter19 } from "./to30/ch19";
+import { chapter20 } from "./to30/ch20";
+import { chapter21a, chapter21b } from "./to30/ch21";
 
 
 export const CHAPTERS = [
@@ -41,4 +44,8 @@ export const CHAPTERS = [
     { name: 'chapter 18b', content: chapter18b },
     { name: 'chapter 18c', content: chapter18c },
     { name: 'chapter 18d', content: chapter18d },
+    { name: 'chapter 19', content: chapter19 },
+    { name: 'chapter 20', content: chapter20 },
+    { name: 'chapter 21a', content: chapter21a },
+    { name: 'chapter 21b', content: chapter21b },
 ]
