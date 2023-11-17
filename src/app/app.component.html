@@ -1,5 +1,7 @@
 <div class="wrapper">
 
+  <h2>{{ title }}</h2>
+
   <div class="chapters">
 
     <div class="select-box">
@@ -34,15 +36,18 @@
 
   <div class="controls">
 
-    <div class="buttons">
-      <button (click)="moveChapter('prev')"><</button>
-      <button (click)="moveChapter('next')">></button>
-      <button (click)="toggleReversed()">reverse</button>
-      <button (click)="shulffle()">shulffle</button>
+      <div class="buttons">
+        <button (click)="moveChapter('prev')"><</button>
+        <button (click)="moveChapter('next')">></button>
+        <button (click)="toggleReversed()">reverse</button>
+        <button (click)="shulffle()">shulffle</button>
+      </div>
       
-      <button (click)="toggleSave()" [ngClass]="{'redMode': saveModeRed}">{{ saveModeText }}</button>
-      <button (click)="loadSaved()">load saved</button>
-    </div>
+      <div class="buttons">
+        <button (click)="toggleSave()" [ngClass]="{'redMode': saveModeRed}">{{ saveModeText }}</button>
+        <button (click)="loadSaved()">load saved</button>
+      </div>
+
 
   </div>
 

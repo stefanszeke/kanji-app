@@ -1,6 +1,6 @@
 .wrapper {
   max-width: fit-content;
-  margin: 60px auto;
+  margin: 10px auto;
 }
 
 .kanji-list {
@@ -61,15 +61,19 @@
 
 .controls {
   display: grid;
-  grid-auto-flow: row;
+  grid-auto-flow: column;
   grid-gap: 6px;
-  justify-content: start;
+  justify-content: space-between;
 }
 
 .controls .buttons {
   display: grid;
   grid-auto-flow: column;
   grid-gap: 5px;
+}
+
+.controls .buttons-wrapper {
+  width: 100%;
 }
 
 .controls button {

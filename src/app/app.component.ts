@@ -11,6 +11,8 @@ import { KanjiItemComponent } from './components/kanji-item/kanji-item.component
 export class AppComponent {
   @ViewChildren(KanjiItemComponent) kanjiItems!: QueryList<KanjiItemComponent>;
 
+  title!: String;
+
   selectedChapter: Kanji[] = [];
   chapters1 = Array.from(Array(15).keys()).map(i => i);
   chapters2 = Array.from(Array(12).keys()).map(i => i + 15);
@@ -32,6 +34,15 @@ export class AppComponent {
     console.log(this.chapters1);
 
     this.savedKanji = JSON.parse(localStorage.getItem('savedKanji') || '[]');
+    this.setTitle();
+  }
+
+  setTitle() {
+    if(this.onSavedKanji) {
+      this.title = 'Saved Kanji';
+      return;
+    }
+    this.title = CHAPTERS[this.currentChapterIndex].name;
   }
 
   selectChapter() {
@@ -39,6 +50,7 @@ export class AppComponent {
     this.onSavedKanji = false;
     this.saveMode = false;
     this.setSaveModeText();
+    this.setTitle();
   }
 
   isSaved(kanji: Kanji):boolean {
@@ -104,6 +116,7 @@ export class AppComponent {
     if(!this.onSavedKanji) this.saveMode = false;
     this.onSavedKanji = true;
     this.setSaveModeText();
+    this.setTitle();
   }
 
   moveChapter(move: string) {
