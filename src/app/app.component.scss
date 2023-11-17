@@ -1,6 +1,11 @@
 .wrapper {
   max-width: fit-content;
   margin: 10px auto;
+  padding: 0 10px;
+}
+
+#title {
+  text-align: right;
 }
 
 .kanji-list {
