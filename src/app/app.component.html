@@ -39,6 +39,9 @@
       <button (click)="moveChapter('next')">></button>
       <button (click)="toggleReversed()">reverse</button>
       <button (click)="shulffle()">shulffle</button>
+      
+      <button (click)="toggleSave()" [ngClass]="{'redMode': saveModeRed}">{{ saveModeText }}</button>
+      <button (click)="loadSaved()">load saved</button>
     </div>
 
   </div>
@@ -47,7 +50,13 @@
 
 <div class='kanji-list'>
   <div  *ngFor="let kanji of selectedChapter">
-    <app-kanji-item [kanji]="kanji"></app-kanji-item>
+    <app-kanji-item 
+    [kanji]="kanji"
+    [saveMode]="saveMode"
+    (kanjiSelected)="handleKanjiSelected($event)"
+    [saved]="isSaved(kanji)"
+    >
+  </app-kanji-item>
   </div>
 </div>
 

@@ -1,4 +1,4 @@
-<div *ngIf="!reversed" class="kanji-item" (click)="toggleHidden() " [ngClass]="{'selected': !hidden}">
+<div *ngIf="!reversed" class="kanji-item" (click)="toggleHidden() " [ngClass]="{'selected': !hidden, 'saved': saved}">
     <div class="kanji-char" >
         {{kanji.kanji}}
     </div>
@@ -6,7 +6,7 @@
         {{kanji.meaning}}
     </div>
 </div>
-<div *ngIf="reversed" class="kanji-item" (click)="toggleHidden()" [ngClass]="{'selected': !hidden}">
+<div *ngIf="reversed" class="kanji-item" (click)="toggleHidden()" [ngClass]="{'selected': !hidden, 'saved': saved}">
     <div class="kanji-char" [ngClass]="{'hidden': hidden}">
         {{kanji.kanji}}
     </div>

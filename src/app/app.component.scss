@@ -85,6 +85,10 @@
   cursor: pointer;
 }
 
+.controls .redMode {
+  border: 1px solid #00ff8c;
+}
+
 @media screen and (max-width: 800px) {
   .kanji-list {
     grid-template-columns: repeat(auto-fill, minmax(60px, 0fr));
