@@ -15,7 +15,7 @@ export class AppComponent {
 
   selectedChapter: Kanji[] = [];
   chapters1 = Array.from(Array(15).keys()).map(i => i);
-  chapters2 = Array.from(Array(12).keys()).map(i => i + 15);
+  chapters2 = Array.from(Array(18).keys()).map(i => i + 15);
   // chapters3 = Array.from(Array(15).keys()).map(i => i + 31);
   // chapters4 = Array.from(Array(15).keys()).map(i => i + 46);
   currentChapterIndex: number = 0;
@@ -44,7 +44,7 @@ export class AppComponent {
     }
     this.title = CHAPTERS[this.currentChapterIndex].name;
   }
-
+  
   selectChapter() {
     this.selectedChapter = [...CHAPTERS[this.currentChapterIndex].content];
     this.onSavedKanji = false;

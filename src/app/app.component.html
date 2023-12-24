@@ -44,7 +44,8 @@
 
       <div class="buttons">
         <button (click)="toggleSave()" [ngClass]="{'redMode': saveModeRed}">{{ saveModeText }}</button>
-        <button (click)="loadSaved()">load saved</button>
+        <button *ngIf="!onSavedKanji" (click)="loadSaved()">load saved</button>
+        <button *ngIf="onSavedKanji" (click)="selectChapter()">back</button>
       </div>
   </div>
 
